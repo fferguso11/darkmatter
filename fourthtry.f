@@ -1,6 +1,8 @@
 !     This is an attempt to generate a Gaussian distribution, sample values from
-!     it and use these to form a histogrammed distribution
-!     As yet, subroutines and functions have not been used for the main code 
+!     it and use these to form a histogram
+!     As yet, subroutines and functions have not been used for the main code to aid 
+!     efficiency
+!     This model will later be used to simulate dark matter velocity distributions
 
       program secondtry
 
