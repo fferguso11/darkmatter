@@ -142,15 +142,15 @@
       
 !     Uncomment the following to allow the target mass and cross section to be read from the command line 
       
-!     Set cross section and mass (could be given from command line in future)
-!     write(6,*) "Cross Section in units of cm^2: "
-!     read(*,*) cross_section
-!     write(6,*) "WIMP mass in units of GeV/c^2: "
-!     read(*,*)  Mw                ! WIMP mass in GeV/c^2
+!     Set target cross section and mass (could be given from command line in future)
+      write(6,*) "Target cross section in units of cm^2: "
+      read(*,*) cross_section
+      write(6,*) "Target WIMP mass in units of GeV/c^2: "
+      read(*,*)  Mw                ! WIMP mass in GeV/c^2
 
-      ! Set mass and cross section for large sample
-      Mw = 60.
-      cross_section = 4D-44
+      ! Alternatively set target mass and cross section within program
+      !Mw = 60.
+      !cross_section = 4D-44
 
 !     Needed for correct outputs
       print = 10
