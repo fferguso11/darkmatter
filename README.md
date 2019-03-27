@@ -9,3 +9,5 @@ The velocity distribution on the samples can be varied to explore the systematic
 - will need to be placed in same folder as the simulation when run
 
 Consult the accompanying report for more information
+
+Before running simulation, open the code to define the mass and cross section for the target and specify the output file. The default setting is for no file output, and target Mw = 60, sigma = 4D-44.
