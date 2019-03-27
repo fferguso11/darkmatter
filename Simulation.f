@@ -1304,7 +1304,7 @@
 
 !     Multiply two contributing probabilities for overall p-value
           prob = probks*yieldprob
-          write(6,*) prob,probks,yieldprob
+          !write(6,*) prob,probks,yieldprob
 !     Sum p-values to take average
           probkssum  = probkssum + prob
 
@@ -1333,10 +1333,12 @@
       end do                  ! Loop over runs
 
 !     Divide by number of runs to get average
+      
       pvalue = probkssum/nruns
       !write(6,*) pvalue
 
       write(97,*) Mw,cross_section,pvalue
+      write(6,*) "Mw,sigma,p-value"
       write(6,*) Mw,cross_section,pvalue
 
 
